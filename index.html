@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Start To Do Now</legend>
+                <div class="inputs">
+                    <div>
+                      <input type="text" id="title-input"/>
+                      <label for="username">Delo</label>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="submit" >Submit</button>
+                    <div class="custom-select" style="width:200px;">
+                        <select class="filters">
+                            <option value="all">All</option>
+                            <option value="done">Completed</option>
+                            <option value="todo">Uncompleted</option>
+                        </select>
+                    </div>
+                </div>
+
+                <ul id="list"></ul> 
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>
